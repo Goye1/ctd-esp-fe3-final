@@ -1,0 +1,183 @@
+.logox{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;    
+}
+
+.center{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.quest{
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quest:hover {
+  text-decoration: underline; 
+}
+
+.cons{
+  margin-left: 10px;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-size: 2rem;   
+}
+
+.invisible{
+    display:none;
+}
+
+.invisible-element {
+  visibility: hidden;
+}
+
+
+
+.datepicker{
+    font-style: normal;
+}
+
+.no-resize {
+    resize: none;
+  }
+
+  #inputsVibrate {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vibrate {
+    animation: vibrate 0.3s ease-in-out infinite;
+  }
+  
+  @keyframes vibrate {
+    0% {
+      transform: translateX(-2px);
+    }
+    50% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(-2px);
+    }
+  }
+
+  td.admitted {
+    color: green;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+td.discharged {
+    color: red;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mt-12{
+  margin-top: 7rem;
+}
+
+.invalidEmail{
+  font-size: small;
+}
+
+.pop{
+  color: gray;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 50%;
+}
+
+.foton{
+  width: 400px;
+  height: 100px;
+}
+
+.home{
+  margin: 7px;
+}
+
+.noti{
+  position: absolute;
+  width: 55%;
+  margin-left: -10%;
+  margin-top: -6.5%;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.cards{
+  width: 280px;
+  height: 480px;
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start; /* Espacio entre las tarjetas */
+
+}
+
+.column {
+  flex: 0 0 calc(25% - 20px); /* 25% de ancho para 4 tarjetas por fila, con un espacio entre ellas */
+  margin-bottom: 20px; /* Espacio inferior entre las filas de tarjetas */
+}
+
+.fut{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.save:hover{
+  background-color: ghostwhite;
+  cursor: pointer;
+}
+
+.is-favorite{
+  background-color: red;
+}
+
+.b{
+  outline: 4px solid  rgba(71,72,255,0.76);
+}
+
+.back{
+  background-color: ghostwhite;
+}
+
+#s{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pad{
+  padding-top: 20px;
+}
+
+.fa{
+  background-color: white;
+  height: 2px;
+}
