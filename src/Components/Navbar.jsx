@@ -2,15 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/bulma.css";
 import "../css/style.css";
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+import { useContextGlobal } from "./utils/global.context";
+import { ContextGlobal } from "./utils/global.context";
 
 const Navbar = () => {
+  const { theme, toggleTheme } = useContextGlobal();
   return (
     <>
-      {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
-
-      <div className="tabs is-centered" id="s">
+      <div className="tabs is-medium is-centered" id="s">
         <ul>
           <li>
             <Link to="/Favs">Favs</Link>
@@ -22,7 +21,9 @@ const Navbar = () => {
             <Link to="/Contact">Contact</Link>
           </li>
           <li>
-            <Link to="/Detail">Detail</Link>
+            <button className="button bm" onClick={toggleTheme}>
+              {theme === "light" ? "Dark" : "Light"}
+            </button>
           </li>
         </ul>
       </div>

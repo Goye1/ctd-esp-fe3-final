@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/bulma.css";
 import "../css/style.css";
-import DH from "../images/DH.png"
+import DH from "../images/DH.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,6 @@ const Footer = () => {
       <div className="content has-text-centered">
         <p>Powered by</p>
         <img className="foton" src={DH} />
-        
       </div>
     </footer>
   );

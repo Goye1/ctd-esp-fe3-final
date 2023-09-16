@@ -166,6 +166,7 @@ input::-webkit-inner-spin-button {
 
 .back{
   background-color: ghostwhite;
+  color: #0B2447;
 }
 
 #s{
@@ -180,4 +181,13 @@ input::-webkit-inner-spin-button {
 .fa{
   background-color: white;
   height: 2px;
+}
+
+.bm{
+  left: 450px;
+}
+
+.backDark{
+  background-color: #0B2447;
+  color: white;
 }
